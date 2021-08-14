@@ -1,0 +1,257 @@
+/*WebOTP css*/
+body {
+	/*background-image: url("../images/clouds1Seamless.jpg");*/
+	background-size: 50%;
+	background-color: #040404;
+	font-size: 18px;
+
+	/*Switching...to...manual...mode*/
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow-y: overlay;
+}
+
+/*--------------------DIV containers--------------------*/
+div.div-content {
+	background-color: #141414;
+
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	text-align: left;
+
+	max-width: 100%;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+div.div-main {
+	background: none;
+	outline: none;
+
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	text-align: left;
+
+	max-width: 800px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.div-header {
+
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	align: center;
+
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+div.div-footer {
+
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	text-align: left;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.div-buttons {
+	text-align: center;
+
+	padding: 20px;
+}
+div.header-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
+/*--------------------TEXT--------------------*/
+p {
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+}
+h1 {
+	color: #dddddd;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+}
+h2 {
+	color: #dddddd;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*--------------------LISTS/TABLES--------------------*/
+ol {
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+}
+ul {
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+}
+table {
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+	width: 100%;
+	padding: 12px 20px;
+}
+td.cell-heading {
+	font-weight: bolder;
+}
+td.header-cell {
+	width: auto;
+}
+/*--------------------LINKS/URLs--------------------*/
+a {
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+}
+a:link {
+	color: #4ebcfc;
+}
+a:visited {
+	color: #4ebcfc;
+}
+a:focus {
+	color: #ED474A;
+}
+a:hover {
+	color: #ED474A;
+}
+a:active {
+	color: white;
+}
+a.navigation-link {
+
+}
+
+/*--------------------FORMS/INPUT--------------------*/
+form {
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+}
+input {
+	background-color: #000000;
+	border-style: none;
+	outline: 2px solid #847D71;
+	color: #dddddd;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+}
+label {
+	margin: 12px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=text], input[type=password], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	padding: 12px 20px;
+	margin: 24px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input:hover {
+	outline: 4px solid #2274A5;
+}
+input:focus {
+	outline: 4px solid #2274A5;
+}
+input:active {
+	outline: 4px solid #ED474A;
+}
+input[type="radio"] {
+	border-style: none;
+	outline-style: none;
+	color: #dddddd;
+
+	width: 18px;
+	height: 18px;
+}
+textarea {
+	background-color: #000000;
+	border-style: none;
+	outline: 1px solid #dddddd;
+
+	color: #dddddd;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+
+	width: 100%;
+	min-height: 100px;
+	resize: none;
+
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+textarea:focus {
+	outline: 4px solid #2274A5;
+}
+.error-message {
+	color: #ED474A;
+}
+
+/*--------------------IMAGES N SHIT--------------------*/
+img.header-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
