@@ -1,6 +1,5 @@
-/*WebOTP css*/
+/*Knot css*/
 body {
-	/*background-image: url("../images/clouds1Seamless.jpg");*/
 	background-size: 50%;
 	background-color: #040404;
 	font-size: 18px;
@@ -142,6 +141,7 @@ table {
 }
 td.cell-heading {
 	font-weight: bolder;
+	text-align: right;
 }
 td.header-cell {
 	width: auto;

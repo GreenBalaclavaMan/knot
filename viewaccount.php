@@ -40,10 +40,6 @@
 			<a href="logout.php">Logout</a>
 		</p>
 
-		<p>
-			Here is all of the info associated with your account in the database.
-		</p>
-
 		<!--User account info-->
 		<table>
 			<tr>
