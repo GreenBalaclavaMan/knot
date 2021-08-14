@@ -57,7 +57,7 @@
 								$user_active = true;
 
 	                                   //Insert the new user into the database
-	                                   $sql = "INSERT INTO `t_users`(`user_id`, `user_name`, `user_birthday`, `user_email`, `user_password`, `user_verified`, `user_active`) VALUES (NULL,'$user_name',NULL,'$user_email','$user_password','$user_verified', '$user_active')" or DIE('Bad Insert Query');
+	                                   $sql = "INSERT INTO `t_users`(`user_id`, `user_name`, `user_email`, `user_password`, `user_joindate`, `user_active`) VALUES (NULL,'$user_name','$user_email','$user_password',NULL, '$user_active')" or DIE('Bad Insert Query');
 	                                   mysqli_query($conn, $sql);
 	                                   $msg = $successmsg;
 

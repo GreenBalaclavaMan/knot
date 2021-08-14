@@ -54,7 +54,7 @@
                          }
 
 				}else{
-					$msg = "Uh, you were somehow logged into an account that doesn't exist in the database. This should not be possible, please contact me at GreenBalaclavaMan@protonmail.com, I would love to know how you managed this.";
+					$msg = "Uh, you were somehow logged into an account that doesn't exist in the database. This should not be possible, please contact me at NicholasRinella@protonmail.com, I would love to know how you managed this.";
 				}
 
 		     }else{

@@ -20,7 +20,7 @@
 
           <!--Page Title-->
           <title>
-               <?php echo "LobsterBoard - " . $title; ?>
+               <?php echo "Knot - " . $title; ?>
           </title>
      </head>
 
@@ -34,7 +34,7 @@
 				<!--Logo-->
 				<div class="header-logo">
 	                    <a href="index.php">
-	                         <img class="header-logo" src="images/logo.png" alt="WebOTP Logo">
+	                         <img class="header-logo" src="images/logo.png" alt="Knot Logo">
 	                    </a>
 				</div>
 

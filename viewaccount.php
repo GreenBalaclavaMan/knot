@@ -23,10 +23,9 @@
 			//Store data in variables
 			$account_id = $row['user_id'];
 			$account_name = $row['user_name'];
-			$account_birthday = $row['user_birthday'];
+			$account_birthday = $row['user_joindate'];
 			$account_email = $row['user_email'];
 			$account_password = substr($row['user_password'], 0, 16); //Truncated version of the password hash
-			$account_team = $row['team_id'];
 		}else{
 			//User does not exist in database
 		}
@@ -85,14 +84,6 @@
 				</td>
 				<td>
 					<?php echo($account_password); ?>
-				</td>
-			</tr>
-			<tr>
-				<td class="cell-heading">
-					Team ID
-				</td>
-				<td>
-					<?php echo($account_team); ?>
 				</td>
 			</tr>
 		</table>

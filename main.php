@@ -19,7 +19,6 @@
 			<li><a href="viewaccount.php">viewaccount.php</a></li>
 			<li><a href="login.php">login.php</a></li>
 			<li><a href="logout.php">logout.php</a></li>
-			<li><a href="viewteams.php">viewteams.php</a></li>
 		</ul>
 	</div>
 </html>

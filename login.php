@@ -75,7 +75,7 @@
 		</p>
 
 		<p>
-          	Dont have an account? You can create one <a href="createaccount.php" color="aqua">here</a>.
+          	Dont have an account? You can create one <a href="createaccount.php">here</a>.
 		</p>
      </div>
 </html>
